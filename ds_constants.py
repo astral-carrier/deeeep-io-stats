@@ -140,7 +140,8 @@ class DS_Constants:
         'damageBlock', 'damageReflection', 'bleedReduction', 'poisonResistance', 'armorPenetration' 
     BIOME_STATS = 'oxygenTime', 'temperatureTime', 'pressureTime', 'salinityTime' 
 
-    BOOLEANS = 'canFly', 'canSwim', 'needsAir', 'canClimb', 'poisonResistant', 'ungrabbable', 'canDig', 'canWalkUnderwater' 
+    BOOLEANS = ('canFly', 'canSwim', 'canStand', 'breathesInAir', 'breathesInWater', 'canClimb', 'poisonResistant',
+                'ungrabbable', 'canDig', 'canWalkUnderwater', 'chooseable', 'hasWalkingAbility')
     
     OLD_STAT_MULTIPLIERS = {
         'DB': 100, 
